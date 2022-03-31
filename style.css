@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+}
+img{
+    width: 150px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20vh;
+    /* background-color: yellow; */
+}
+.again{
+    align-self: flex-start;
+    background-color:orange;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.btn{
+    background-color: orange;
+    border-radius: 50%;
+}
+header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.score{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn-rock{
+    background-color: black,whitesmoke;
+}
